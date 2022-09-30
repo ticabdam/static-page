@@ -396,6 +396,10 @@ the website, in dark theme
     bottom: 1rem;
     width: 228px;
     border-radius: .5rem;
+    transition: .3s;
+}
+.home__info:hover {
+    background-color: var(--first-color-alt);
 }
 
 .home__info-title {
@@ -403,11 +407,15 @@ the website, in dark theme
     font-size: var(--small-font-size);
     font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-0-75);
+    color: var(--first-color-lighten);
 }
 
 .home__info-button {
     font-size: var(--smaller-font-size);
     padding: 0 !important;
+    display: inline-block;
+    color: #FFF;
+    border-radius: .5rem;
 }
 
 .home__info-overlay {
